@@ -1,11 +1,15 @@
-import React from 'react'
+import './App.css'
 import Home from './components/home/Home'
+import NAvbar from './components/Navbar/NAvbar'
+
 
 const App = () => {
   return (
-    <div>
-      <Home/>
-    </div>
+    <>
+<NAvbar/>
+    <Home/>
+
+    </>
   )
 }
 
