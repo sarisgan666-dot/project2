@@ -1,5 +1,6 @@
 import  "./Navbar.css"
-
+import img3 from "../../assets/picture.png"
+import img4 from "../../assets/logo.png"
 const NAvbar = () => {
   return (
 
@@ -131,6 +132,81 @@ const NAvbar = () => {
         <div class="jagged-divider"></div>
     </section>
     </div>
+    
+
+<div class="main-wrapper">
+ 
+  <section class="programs-section">
+    <div class="section-header">
+      <span class="caption">CAPTION</span>
+      <h2 class="section-title">Our Programs</h2>
+    </div>
+    
+    <div class="programs-grid">
+      <div class="program-card">
+        <div class="card-image"><img src={img3} alt="" /></div>
+        <div class="card-body">
+          <span class="card-tag">Ages 4 - 13</span>
+          <h3>2023 GTA Mavericks Summer Camps</h3>
+          <p>GTA Mavericks Basketball Association is passionately dedicated to inspiring and empowering players and athletes.</p>
+          <button class="card-btn">More Info ➔</button>
+        </div>
+      </div>
+      <div class="program-card">
+        <div class="card-image"><img src={img3} alt="Elite Training" /></div>
+        <div class="card-body">
+          <span class="card-tag">Ages 13 - 18</span>
+          <h3>Mavericks Elite Summer Training Camp 2023</h3>
+          <p>Seize the chance to unlock your full potential with the Mavericks Elite Basketball Academy!</p>
+          <button class="card-btn">More Info ➔</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+  <section class="why-us">
+        <h2 class="section-title white">Why are we here?</h2>
+        <div class="why-container">
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>GET SKILLED</h4>
+                    <p>With our high-level coaches and exceptional drills, we take skill development seriously.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>BE MENTALLY STRONG</h4>
+                    <p>Basketball requires more than just athleticism; it requires a strong and healthy mind.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>STAY HEALTHY</h4>
+                    <p>We stress a healthy lifestyle on and off the court through the game itself and conditioning.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>STAY ORGANIZED</h4>
+                    <p>We stress proper time management. School is top priority! Grades matter to us.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>BE A TEAM PLAYER</h4>
+                    <p>On the court and in life, you must be able to help and rely on others to succeed.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"></div>
+                    <h4>GET COMPETITIVE</h4>
+                    <p>We create an age-appropriate competitive environment so all athletes have a chance to play.</p>
+                </div>
+            </div>
+            <div class="why-image">
+                <img src={img4} alt="Kids playing"/>
+            </div>
+        </div>
+    </section>
+    
 </>
 
   )
