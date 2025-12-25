@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.basic{
+    width: 1920px;
+    height: 95vh;
+    display: flex;
+    padding: 112px 150px;
+    background-color: rgba(11, 42, 70, 1);
+    color: white;
+}
+.basic h4{
+    color: rgba(14, 125, 185, 1);
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.basic h1{
+    font-size: 42px;
+    width: 650px;
+    line-height: 120%;
+    padding-bottom: 48px;
+}
+.basic p{
+    color: rgb(181, 177, 243);
+    font-size: 18px;
+    line-height: 170%;
+    width: 680px;
+    padding-bottom: 64px;
+}
+.btns{
+    display: flex;
+    gap: 16px;
+}
+.btns button{
+    width: 208px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid rgba(14, 125, 185, 1);
+    color: rgba(14, 125, 185, 1);
+}
+.btns button:hover{
+    color: white;
+    background-color: rgba(14, 125, 185, 1);
+}
+.basic_img{
+    margin-top: -220px;
+}
+.eboy{
+    background-color: white;
+    color: aliceblue;
+    flex-direction: row-reverse;
+    gap: 400px;
+    margin-top: 150px;
+}
+.eboy h1{
+   color: black;
+}
+.eboy p{
+    color: gray;
+}
+.b_input{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(11, 42, 70, 1);
+}
+.input{
+    width: 768px;
+    height: 642px;
+    background-color: aliceblue;
+   padding: 50px 34px;
+}
+.input h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.input h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.input input{
+    width: 700px;
+    height: 48px;
+    text-indent: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(242, 244, 248, 1);
+    outline: none;
+    margin-bottom: 15px;
+}
+.input h3{
+    padding-bottom: 15px;
+}
+footer{
+    width: 100%;
+    height: 634px;
+    background-color: rgba(11, 42, 70, 1);
+    margin-top: 10px;
+    padding: 48px 80px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos input{
+    width: 505px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 20px;
+}
+.l_btn{
+    display: flex;
+    gap: 16px;
+}
+.l_btn button{
+    width: 136px;
+    height: 48px;
+    background-color: rgba(14, 125, 185, 1);
+    color: white;
+    border: none;
+}
+.line{
+    width: 1760px;
+    height: 1px;
+    background-color: aliceblue;
+    margin-top: 68px;
+}
+.links{
+    display: flex;
+    gap: 307px;
+    padding-top: 48px;
+    color: white;
+}
+.link p{
+    padding-top: 16px;
+}
+.imgss{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.p{
+    display: flex;
+    gap: 50px;
+}
